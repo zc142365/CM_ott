@@ -4,7 +4,7 @@ server:
 spring:
     datasource:
         driver-class-name: "com.mysql.cj.jdbc.Driver"
-        url: "jdbc:mysql://localhost:3306/ottDB"
+        url: "jdbc:mysql://ex-global-cluster.cluster-cxhoxfkpwapx.ap-northeast-2.rds.amazonaws.com:3306/ottDB"
         username: "root"
         password: "qwer1234"
         connectionProperties: "serverTimezone=UTC;useSSL=false;useUnicode=true;characterEncoding=UTF-8"

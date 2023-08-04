@@ -55,8 +55,8 @@
                 style="position: relative; width: 100%; height: auto;"
                 >
 	        <source
-	            src="/css/2023-02-28 오후 네트워크 기초.mp4"
-	            type="video/mp4"
+	            src="${ data.url }"
+	            type="application/x-mpegURL"
 	            label="1080P">
 	        <p class="vjs-no-js">
 	            To view this video please enable JavaScript, and consider upgrading to a web browser that
