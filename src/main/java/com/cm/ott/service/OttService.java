@@ -3,9 +3,9 @@ package com.cm.ott.service;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.stereotype.Component;
+import org.apache.ibatis.annotations.Mapper;
 
-@Component
+@Mapper
 public interface OttService {
 
 	String create(Map<String, Object> map);	// 삽입

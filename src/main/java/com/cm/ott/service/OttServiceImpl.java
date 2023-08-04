@@ -6,7 +6,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cm.ott.OttDao;
+import com.cm.ott.dao.OttDao;
 
 @Service
 public class OttServiceImpl implements OttService {

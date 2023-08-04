@@ -1,4 +1,4 @@
-package com.cm.ott;
+package com.cm.ott.config;
 
 import javax.sql.DataSource;
 
@@ -21,7 +21,7 @@ public class DatabaseConfig {
         final SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
         sessionFactory.setDataSource(dataSource);
         PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-        sessionFactory.setMapperLocations(resolver.getResources("classpath:com/cm/ott/*.xml"));
+        sessionFactory.setMapperLocations(resolver.getResources("classpath:mapper/*.xml"));
         return sessionFactory.getObject();
     }
     
