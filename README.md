@@ -6,6 +6,8 @@
 저는 Java Spring 환경으로 구축된 백엔드를 fork해서 tomcat과 같이 패키징해서 사용할 수 있도록 Spring Boot로 code를 migration 하고
 Pico CSS를 추가하여 사용자 UI를 개선하였습니다
 
+프로젝트 PPT 주소 : https://1drv.ms/p/s!AtaFxUu6JLP9sBNF90C3StVznk4w?e=rw1ip5
+
 ## 개발 환경
   - OS : Windows
   - Development Language : Java, Javascript
